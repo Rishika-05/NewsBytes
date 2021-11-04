@@ -105,3 +105,6 @@ News.propTypes = {
 }
 
 export default News
+
+
+// REACT_APP_NEWS_API = '84f2d98d8d1240bbb6a8697baf47232c'
