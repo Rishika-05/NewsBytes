@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const App = () => {
 
-  const apiKey = '84f2d98d8d1240bbb6a8697baf47232c';
+  const apiKey = '8e0c6bc688794507970f6e13e04d2721';
   const [progress, setProgress] = useState(0);
 
   return (

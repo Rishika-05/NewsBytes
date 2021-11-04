@@ -36,7 +36,8 @@ const News = (props) => {
     useEffect(() => {
         document.title = `${capitalize(props.category)} | NewsBytes`;
         updateNews();
-    })
+        // eslint-disable-next-line
+    },[])
 
 
     // const handlePrev = async () => {
@@ -65,7 +66,7 @@ const News = (props) => {
     return (
         <>
             <h3 className="text-center mb-4" style={{marginTop: '90px'}}>NewsBytes - Top {capitalize(props.category)} Headlines</h3>
-            {loading && <Spinner/>}
+            {loading && <Spinner />}
             <InfiniteScroll
                 dataLength={articles.length}
                 // dataLength={data.length}
