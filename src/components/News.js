@@ -36,7 +36,7 @@ const News = (props) => {
     useEffect(() => {
         document.title = `${capitalize(props.category)} | NewsBytes`;
         updateNews();
-    }, [])
+    })
 
 
     // const handlePrev = async () => {

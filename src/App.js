@@ -4,12 +4,12 @@ import LoadingBar from 'react-top-loading-bar'
 import React, { useState } from 'react'
 import News from './components/News';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+ 
 // import PropTypes from 'react';
 
-const App = (props) => {
+const App = () => {
 
-  const apiKey = process.env.REACT_APP_NEWS_API
-  
+  const apiKey = '84f2d98d8d1240bbb6a8697baf47232c';
   const [progress, setProgress] = useState(0);
 
   return (
